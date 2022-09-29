@@ -1,0 +1,201 @@
+addressID,postalCode,streetName,city,country
+1,875130,Anthes,Jisegumen,CN
+2,130889,Rowland,Huanggong,CN
+3,838163,Ridgeview,Pukou,CN
+4,044075,Menomonie,Xinxing,CN
+5,236863,Troy,Carodok,ID
+6,290932,Summerview,Jalatrang,ID
+7,780717,Glendale,Gelan,CN
+8,930515,Anhalt,Datuan,CN
+9,463211,Westport,Yamoussoukro,CI
+10,733175,Ludington,Zhangdan,CN
+11,620037,Jay,Rozvadov,UA
+12,847314,Vera,Beauvais,FR
+13,394063,Buell,Werinama,ID
+14,120773,Ridge Oak,Heerlen,NL
+15,473141,Northport,Smolenka,RU
+16,669325,Corscot,Sayapullo,PE
+17,573724,Clemons,Karangpocok,ID
+18,440357,Fieldstone,Ciodeng,ID
+19,939535,Morrow,Soledade,BR
+20,113200,Waywood,Lingbei,CN
+21,787128,Tomscot,Novovorontsovka,UA
+22,633195,Dixon,Pensacola,US
+23,136666,Coleman,Quitilipi,AR
+24,581787,Westridge,Ćićevac,RS
+25,996782,Fordem,Henglishan,CN
+26,606083,Coolidge,Songmuping,CN
+27,518582,Jenifer,Shaozhai,CN
+28,897472,Towne,Laguna Paiva,AR
+29,167842,Melody,Sātkhira,BD
+30,561189,Clove,Pagsañgahan,PH
+31,846281,Weeping Birch,Bagusan,ID
+32,024217,Daystar,Bodĭ,MN
+33,165796,Lindbergh,Tiegai,CN
+34,578947,Shasta,Imatra,FI
+35,459843,Butterfield,Pedregulho,BR
+36,928491,Anniversary,Drumcondra,IE
+37,763585,Summer Ridge,Bayt ‘Anān,PS
+38,603934,Arkansas,Vatutine,UA
+39,204513,Lien,Shiniujiang,CN
+40,400409,Kedzie,Sanlifan,CN
+41,351751,Anhalt,Cancela,PT
+42,223032,Warner,Dagu,CN
+43,917539,Rieder,Eqlīd,IR
+44,569666,Ryan,Falënki,RU
+45,848787,West,La Victoria,CO
+46,962734,Clarendon,Cheongsong gun,KR
+47,096447,Spaight,Youcheng,CN
+48,442249,Canary,‘Amd,YE
+49,200404,Shoshone,Persen,ID
+50,682782,Onsgard,Kota Kinabalu,MY
+51,301216,Mifflin,Marxog,CN
+52,468358,Marquette,Pszczyna,PL
+53,122505,Monument,Penambangan,ID
+54,502539,Forest Dale,Zambrów,PL
+55,845157,Melvin,HanHuang,CN
+56,442658,Veith,Laoqiao,CN
+57,924098,1st,Maracanã,BR
+58,852445,Moland,Birao,CF
+59,330391,Kings,Ganping,CN
+60,095756,Dwight,Kostomuksha,RU
+61,766012,Buena Vista,Lampa,ID
+62,159060,Lunder,Lokokrangan,ID
+63,215796,Dennis,Jelisavac,HR
+64,674428,Anzinger,Itaparica,BR
+65,838831,Fieldstone,Vale da Pedra,PT
+66,096981,Loftsgordon,Bilhorod-Dnistrovs’kyy,UA
+67,780606,Pine View,Tejakalapa,ID
+68,122458,Barnett,Bunia,CD
+69,688015,Lukken,Iñapari,PE
+70,704690,Comanche,Calvaria de Baixo,PT
+71,011616,Norway Maple,Arrufó,AR
+72,065490,Loftsgordon,Shatki,RU
+73,349659,Vera,Sison,PH
+74,500172,Meadow Vale,Bherāmāra,BD
+75,373913,Barnett,Miskindzha,RU
+76,996267,Blaine,Daliuhang,CN
+77,014139,Eastwood,Lawrenceville,US
+78,033636,Walton,Yongfa,CN
+79,006684,Randy,Rio Real,BR
+80,976009,Artisan,Saḩab,YE
+81,327913,Ridgeway,Jiepai,CN
+82,389282,Granby,Gejiu,CN
+83,799506,Laurel,Huangbei,CN
+84,724709,Oak,Cuauhtemoc,MX
+85,520483,Stephen,Yamazakichō-nakabirose,JP
+86,816603,Towne,Suqiaoxiang,CN
+87,044617,Brentwood,Mhango,TZ
+88,185046,Northwestern,Yasinya,UA
+89,564853,Morning,Weihai,CN
+90,895925,Cody,Gorodets,RU
+91,320166,Longview,Nghĩa Hành,VN
+92,389600,Spohn,Shangqiu,CN
+93,788059,Anhalt,Sekolan,ID
+94,590181,Artisan,Tanjungbalai,ID
+95,565402,Redwing,Lovisa,FI
+96,003081,Carberry,Avellaneda,AR
+97,126375,Eagan,Chernyanka,RU
+98,893816,Corscot,Chervonopartyzans’k,UA
+99,848537,Old Gate,Santa Marta,CO
+100,751271,Esch,Alavus,FI
+101,374720,International,Niebylec,PL
+102,283270,Continental,Hezhang,CN
+103,805509,Boyd,Chartres,FR
+104,809078,Little Fleur,Goodlands,MU
+105,170322,Dwight,Pueblo Nuevo,PA
+106,842014,Kipling,Atikokan,CA
+107,014083,Toban,Szczawno-Zdrój,PL
+108,782605,Dayton,Pining,ID
+109,158792,Warner,Buy,RU
+110,119505,Pankratz,Broto,ID
+111,967730,Mifflin,Cikadu,ID
+112,891378,Amoth,San Pedro de Ycuamandiyú,PY
+113,621771,Golf,Eskilstuna,SE
+114,279191,Gale,Guadalupe Victoria,MX
+115,620058,Chinook,Toyoshina,JP
+116,889895,American,Caicó,BR
+117,118155,Fulton,Teodoro Sampaio,BR
+118,741526,Monica,Arazane,MA
+119,167098,Evergreen,Mamali,PH
+120,882138,Hansons,Satis,RU
+121,955697,Lotheville,Kema,ID
+122,103061,Summit,Namayingo,UG
+123,516904,Huxley,Várzea,PT
+124,204202,Duke,Krasnodon,UA
+125,752319,Knutson,Triesenberg,LI
+126,451474,Sunbrook,Kisoro,UG
+127,755403,Springs,Ush-Tyube,KZ
+128,729587,Valley Edge,Sergio Osmeña Sr,PH
+129,583312,Badeau,Kukushtan,RU
+130,316646,Magdeline,Anilao,PH
+131,194660,Bayside,Kant,KG
+132,061305,Claremont,Sannois,FR
+133,745694,John Wall,Valledupar,CO
+134,531389,Becker,Novoye Devyatkino,RU
+135,728820,Melby,Aubagne,FR
+136,084216,Delladonna,Räpina,EE
+137,382213,Hansons,Dujiajing,CN
+138,264782,Northwestern,Longhua,CN
+139,041509,Gina,Ganhe,CN
+140,013504,Fallview,Le Mans,FR
+141,878872,Fuller,Talin Hiag,CN
+142,088262,Loeprich,Mlawat,ID
+143,245299,Kedzie,Cerme Kidul,ID
+144,564546,American Ash,Mojosari,ID
+145,874633,Hudson,Candon,PH
+146,291195,Surrey,Yelizavetino,RU
+147,800883,Sutteridge,Pirca,PE
+148,973497,Shelley,Šenov,CZ
+149,437576,David,Teplice,CZ
+150,803934,Hansons,Babakanjaya,ID
+151,122022,Colorado,Hyesan-dong,KP
+152,922148,Spohn,Owczarnia,PL
+153,811562,Hansons,Chishtiān Mandi,PK
+154,655596,Farragut,Varjota,BR
+155,683442,Warner,Fangtai,CN
+156,299423,Sheridan,Kveda Chkhorots’q’u,GE
+157,348956,Helena,Kovdor,RU
+158,499220,Bartillon,Kelungkung,ID
+159,818353,Mccormick,Tigre,AR
+160,711500,Lukken,Bugana,NG
+161,201795,6th,Pinheiros,BR
+162,774679,Havey,Purwojoyo,ID
+163,597300,Hansons,Timaru,NZ
+164,307757,Old Shore,Nantes,FR
+165,290423,Bellgrove,Jammāl,TN
+166,455401,Chive,Xiaochuan,CN
+167,384870,Carpenter,Ålesund,NO
+168,000249,Schlimgen,Nao,ID
+169,562473,Stephen,Ndago,TZ
+170,127977,Manufacturers,Wuping,CN
+171,401370,Norway Maple,Atyrau,KZ
+172,674232,Sherman,Revelstoke,CA
+173,450518,Stephen,Santisimo Rosario,PH
+174,953835,Annamark,Banquero,PH
+175,699020,Derek,Laraos,PE
+176,496938,Dorton,Kavallári,GR
+177,063038,International,Rothesay Bay,NZ
+178,500079,Veith,Maclear,ZA
+179,617448,5th,Margherita,UG
+180,619467,Mesta,Mascote,BR
+181,298453,Pearson,Laspezia,IT
+182,592311,Jana,Kwale,NG
+183,178460,Talisman,Dajanrurung,ID
+184,799442,Forest Run,Villa Gesell,AR
+185,603982,Holy Cross,Boulder,US
+186,409435,Meadow Vale,Fuming,CN
+187,967315,Lukken,Buenavista,PH
+188,096970,Waywood,Fengmu,CN
+189,501490,Jackson,Cibatuireng,ID
+190,849441,Portage,Liping,CN
+191,865317,Ryan,Tewulike,CN
+192,614010,Arapahoe,Miłakowo,PL
+193,706464,Melvin,Boucherville,CA
+194,948932,Spohn,Kuroiso,JP
+195,574049,Sachs,Bystré,CZ
+196,202925,Miller,Deep River,CA
+197,328107,Mosinee,Tvarožná,CZ
+198,512353,Meadow Vale,Thị Trấn Cao Lộc,VN
+199,644098,Havey,Sedlarevo,MK
+200,718233,Meadow Vale,Pedreira,PT
