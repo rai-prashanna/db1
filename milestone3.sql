@@ -81,9 +81,9 @@ create table Product
 	title varchar(50),
 	description TEXT,
 	originalPrice int,
-	discount int,
+	discount float,
 	isFeatured boolean DEFAULT 0,
-	tax int,
+	tax float,
 	PQuantity int,
 
 	primary key (pID),
