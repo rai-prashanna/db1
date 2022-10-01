@@ -1,6 +1,6 @@
 create table User
 (
-	personalID varchar(20),
+	personalID int, 
 	name varchar(20),
 	password varchar(20),
 	phoneNumber varchar(10),
@@ -11,12 +11,13 @@ create table User
 
 create table Users_Email
 (
-	personalID varchar(20),
+	personalID int,
 	emailAddress varchar(70),
 
 	primary key (personalID),
 	foreign key (personalID) references User(personalID)
 		on delete cascade
+		on update cascade
 )ENGINE=INNODB;
 
 create table Address
@@ -27,23 +28,27 @@ create table Address
 	city varchar(30),
 	country varchar(3),
 
-	primary key (addressID),
+	primary key (addressID)
 )ENGINE=INNODB;
 
 create table User_Address
 (
-	personalID varchar(20),
+	personalID int,
 	addressID int,
 
 	primary key (personalID),
+	foreign key (personalID) references User(personalID)
+		on delete cascade
+		on update cascade,
 	foreign key (addressID) references Address(addressID)
 		on delete SET NULL
+		on update cascade
 )ENGINE=INNODB;
 
-create table Order
+create table Orderr
 (
 	orderID int,
-	personalID varchar(20),
+	personalID int,
 	orderDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	paymentRef varchar(64),
 	trackingID varchar(10),
@@ -52,6 +57,7 @@ create table Order
 	primary key (orderID),
 	foreign key (personalID) references User(personalID)
 		on delete cascade
+		on update cascade
 )ENGINE=INNODB;
 
 create table Department
@@ -60,7 +66,7 @@ create table Department
 	title varchar(50),
 	description TEXT,
 
-	primary key (DId),
+	primary key (DId)
 )ENGINE=INNODB;
 
 create table Has
@@ -68,9 +74,13 @@ create table Has
 	rootID int,
 	dID int,
 
-	primary key (rootID),
-	foreign key (rootID, dID) references Department(dID, dID)
+	primary key (dID),
+	foreign key (rootID) references Department(dID)
+		on delete SET NULL
+		on update cascade,
+	foreign key (dID) references Department(dID)
 		on delete cascade
+		on update cascade
 )ENGINE=INNODB;
 
 create table Product
@@ -88,7 +98,8 @@ create table Product
 
 	primary key (pID),
 	foreign key (dID) references Department(dID)
-		on delete SET NULL
+		on delete SET NULL,
+		on update cascade
 )ENGINE=INNODB;
 
 create table Product_Keyword
@@ -98,12 +109,13 @@ create table Product_Keyword
 
 	primary key (pID, keyword),
 	foreign key (pID) references Product(pID)
-		on delete SET NULL
+		on delete cascade
+		on update cascade
 )ENGINE=INNODB;
 
 create table Review
 (
-	personalID varchar(20),
+	personalID int,
 	pID int,
 	star int,
 	comment TEXT,
@@ -111,8 +123,10 @@ create table Review
 	primary key(personalID, pID) ,
 	foreign key (personalID) references User(personalID)
 		on delete cascade,
+		on update cascade,
 	foreign key (pID) references Product(pID)
-		on delete cascade
+		on delete cascade,
+		on update cascade
 )ENGINE=INNODB;
 
 create table Added
@@ -125,6 +139,8 @@ create table Added
 	primary key(orderID, pID),
 	foreign key (orderID) references Order(orderID)
 		on delete cascade,
+		on update cascade,
 	foreign key (pID) references Product(pID)
-		on delete cascade
+		on delete cascade,
+		on update cascade
 )ENGINE=INNODB;
