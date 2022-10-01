@@ -5,7 +5,6 @@ create table User
 	password varchar(20),
 	phoneNumber varchar(10),
 	isSubscribed boolean DEFAULT 0,
-
 	primary key (personalID)
 ) ENGINE=INNODB;
 
@@ -16,7 +15,7 @@ create table Users_Email
 
 	primary key (personalID),
 	foreign key (personalID) references User(personalID)
-		on delete cascade
+	ON DELETE CASCADE  ON UPDATE CASCADE
 )ENGINE=INNODB;
 
 create table Address
@@ -26,7 +25,6 @@ create table Address
 	streetName varchar(30),
 	city varchar(30),
 	country varchar(3),
-
 	primary key (addressID),
 )ENGINE=INNODB;
 
@@ -37,10 +35,10 @@ create table User_Address
 
 	primary key (personalID),
 	foreign key (addressID) references Address(addressID)
-		on delete SET NULL
+	on delete SET NULL
 )ENGINE=INNODB;
 
-create table Order
+create table `Order`
 (
 	orderID int,
 	personalID varchar(20),
@@ -51,7 +49,7 @@ create table Order
 
 	primary key (orderID),
 	foreign key (personalID) references User(personalID)
-		on delete cascade
+	ON DELETE CASCADE  ON UPDATE CASCADE
 )ENGINE=INNODB;
 
 create table Department
@@ -70,7 +68,7 @@ create table Has
 
 	primary key (rootID),
 	foreign key (rootID, dID) references Department(dID, dID)
-		on delete cascade
+	ON DELETE CASCADE  ON UPDATE CASCADE
 )ENGINE=INNODB;
 
 create table Product
@@ -88,7 +86,7 @@ create table Product
 
 	primary key (pID),
 	foreign key (dID) references Department(dID)
-		on delete SET NULL
+	on delete SET NULL
 )ENGINE=INNODB;
 
 create table Product_Keyword
@@ -98,7 +96,7 @@ create table Product_Keyword
 
 	primary key (pID, keyword),
 	foreign key (pID) references Product(pID)
-		on delete SET NULL
+	on delete SET NULL
 )ENGINE=INNODB;
 
 create table Review
@@ -112,7 +110,7 @@ create table Review
 	foreign key (personalID) references User(personalID)
 		on delete cascade,
 	foreign key (pID) references Product(pID)
-		on delete cascade
+	ON DELETE CASCADE  ON UPDATE CASCADE
 )ENGINE=INNODB;
 
 create table Added
@@ -123,8 +121,8 @@ create table Added
 	totalPrice int,
 
 	primary key(orderID, pID),
-	foreign key (orderID) references Order(orderID)
+	foreign key (orderID) references `Order`(orderID)
 		on delete cascade,
 	foreign key (pID) references Product(pID)
-		on delete cascade
+	ON DELETE CASCADE  ON UPDATE CASCADE
 )ENGINE=INNODB;
